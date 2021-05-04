@@ -142,7 +142,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd -s 9.000000 9.000000 9.000000 Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
 
 newmtl WallTexture.001
 Ns 225.000000
@@ -153,7 +153,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd -s 9.000000 9.000000 9.000000 Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
 
 newmtl WallTexture.002
 Ns 225.000000
@@ -164,7 +164,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd -s 9.000000 9.000000 9.000000 Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
 
 newmtl WallTexture.003
 Ns 225.000000
@@ -175,7 +175,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd -s 9.000000 9.000000 9.000000 Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
 
 newmtl WoodebFloor
 Ns 225.000000
