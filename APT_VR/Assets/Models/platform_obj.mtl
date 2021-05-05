@@ -1,0 +1,49 @@
+# Blender MTL File: 'platform.blend'
+# Material Count: 4
+
+newmtl Chair
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump fabric_0017_normal_2k.jpg
+map_Kd Textures\\couch_textures\\fabric_0017_base_color_2k.jpg
+map_Ns fabric_0017_roughness_2k.jpg
+
+newmtl Pillar
+Ns 900.000000
+Ka 0.700000 0.700000 0.700000
+Kd 0.457532 0.457532 0.457532
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Platform
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd G:\\repos\\blender_models\\textures\\wood_0013_2k_3fYjgA\\wood_0013_base_color_2k.jpg
+
+newmtl Stainless
+Ns 225.000000
+Ka 0.448485 0.448485 0.448485
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump Thin_stainless_steel_tiles_01_2K_Normal.png
+map_Kd Textures\\couch_textures\\Thin_stainless_steel_tiles_01_2K_Base_Color.png
+map_Ns Thin_stainless_steel_tiles_01_2K_Roughness.png
