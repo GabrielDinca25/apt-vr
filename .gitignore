@@ -17,6 +17,8 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
+/[Aa]ssets/ExternalAssets/TerrainTexturesPackFree/
+[Aa]ssets/ExternalAssets/TerrainTexturesPackFree/
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
