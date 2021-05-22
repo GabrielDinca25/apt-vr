@@ -875,6 +875,7 @@ GameObject:
   - component: {fileID: 476540}
   - component: {fileID: 11450312}
   - component: {fileID: 114000011273627542}
+  - component: {fileID: 8130811607758946633}
   - component: {fileID: 114000011734077242}
   m_Layer: 26
   m_Name: LeftHand
@@ -985,6 +986,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   broadcastDeviceChanges: 1
+--- !u!114 &8130811607758946633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a250fb840a0e254281f74ad128d4940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000011734077242
 MonoBehaviour:
   m_ObjectHideFlags: 0
