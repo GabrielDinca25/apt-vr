@@ -9,27 +9,28 @@ using System.Collections;
 
 namespace Valve.VR.InteractionSystem
 {
-	//-------------------------------------------------------------------------
-	[RequireComponent( typeof( CapsuleCollider ) )]
-	public class BodyCollider : MonoBehaviour
-	{
-		public Transform head;
+    //-------------------------------------------------------------------------
+    [RequireComponent(typeof(BoxCollider))]
+    public class BodyCollider : MonoBehaviour
+    {
+        public Transform head;
 
-		private CapsuleCollider capsuleCollider;
+        private BoxCollider boxCollider;
 
-		//-------------------------------------------------
-		void Awake()
-		{
-			capsuleCollider = GetComponent<CapsuleCollider>();
-		}
+        //-------------------------------------------------
+        void Awake()
+        {
+            boxCollider = GetComponent<BoxCollider>();
+        }
 
 
-		//-------------------------------------------------
-		void FixedUpdate()
-		{
-			float distanceFromFloor = Vector3.Dot( head.localPosition, Vector3.up );
-			capsuleCollider.height = Mathf.Max( capsuleCollider.radius, distanceFromFloor );
-			transform.localPosition = head.localPosition - 0.5f * distanceFromFloor * Vector3.up;
-		}
-	}
+        //-------------------------------------------------
+        void FixedUpdate()
+        {
+            float distanceFromFloor = Vector3.Dot(head.localPosition, Vector3.up);
+            float y = Mathf.Max(boxCollider.size.y, distanceFromFloor);
+            boxCollider.size = new Vector3(boxCollider.size.x, y, boxCollider.size.z);
+            transform.localPosition = head.localPosition - 0.5f * distanceFromFloor * Vector3.up;
+        }
+    }
 }

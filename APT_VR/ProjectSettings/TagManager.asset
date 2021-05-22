@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Plank
   - PlayerSteamVR
+  - UI
   layers:
   - Default
   - TransparentFX

@@ -17,35 +17,14 @@ public class LeftHandController : MonoBehaviour
     public bool _ring;
     public bool _pinky;
 
-    public bool canUse;
 
-    public int handIndex;
-    public int handIndexLength;
-    public Vector3 lastHandPosition;
-    public Vector3[] handLastPositions;
-    public float fireShotRotationAngle;
-
-    public Vector3 offset;
-    public Transform follower;
-
-    void Start()
-    {
-        canUse = true;
-        handIndex = 0;
-        handIndexLength = 60;
-        handLastPositions = new Vector3[handIndexLength];
-        handLastPositions[handIndexLength - 1] = transform.position;
-        follower.position = transform.position + offset;
-    }
 
     void Update()
     {
-        //Thumbstick();
         //Squeeze();
         //Grip();
         //Pinch();
         //Skeleton();
-        UpdatePosition();
         //TrackFinger();
     }
 
@@ -56,28 +35,6 @@ public class LeftHandController : MonoBehaviour
         _middle = SkeletonAction.middleCurl > 0.5f ? true : false;
         _ring = SkeletonAction.ringCurl > 0.5f ? true : false;
         _pinky = SkeletonAction.pinkyCurl > 0.5f ? true : false;
-    }
-
-    public void UpdatePosition()
-    {
-        handLastPositions[handIndex] = transform.position;
-
-        if (handIndex == 0)
-        {
-            lastHandPosition = handLastPositions[handLastPositions.Length - 1];
-        }
-        else
-        {
-            lastHandPosition = handLastPositions[handIndex - 1];
-        }
-
-        follower.position += (transform.position - lastHandPosition);
-
-        handIndex++;
-        if (handIndex == handIndexLength)
-        {
-            handIndex = 0;
-        }
     }
 
     private void Thumbstick()
