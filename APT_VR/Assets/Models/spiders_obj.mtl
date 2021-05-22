@@ -1,0 +1,120 @@
+# Blender MTL File: 'spiders.blend'
+# Material Count: 11
+
+newmtl CeilingTeture
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.220249 0.093118 0.022326
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl DoorKnobTexture
+Ns 900.000000
+Ka 0.758333 0.758333 0.758333
+Kd 0.911393 0.728370 0.863389
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl DoorTexture
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\couch_textures\\wood_0007_base_color_2k.jpg
+
+newmtl Metal.001
+Ns 360.711060
+Ka 0.851711 0.851711 0.851711
+Kd 1.000000 0.968130 0.876105
+Ks 0.610266 0.610266 0.610266
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 3
+
+newmtl Sofa
+Ns 497.306956
+Ka 1.000000 1.000000 1.000000
+Kd 0.048608 0.034965 0.041174
+Ks 0.199620 0.199620 0.199620
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Table
+Ns 776.020415
+Ka 0.504202 0.504202 0.504202
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl WallTexture
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+
+newmtl WallTexture.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+
+newmtl WallTexture.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+
+newmtl WallTexture.003
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\couch_textures\\brick_wall_7_baseColor.jpg
+
+newmtl WoodebFloor
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Textures\\couch_textures\\2K-woodparquet_17_normal.jpg
+map_Kd Textures\\couch_textures\\2K-woodparquet_17_basecolor.jpg
+map_Ns Textures\\couch_textures\\2K-woodparquet_17_roughness.jpg
