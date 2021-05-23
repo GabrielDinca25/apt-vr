@@ -8,6 +8,8 @@ public class RightHandController : MonoBehaviour
     public SteamVR_Action_Vector2 ThumbstickAction = null;
     public SteamVR_Action_Vector2 TrackpadAction = null;
     public SteamVR_Action_Single SqueezeAction = null;
+    public SteamVR_Action_Boolean ButtonA = null;
+    public SteamVR_Action_Boolean ButtonB = null;
     public SteamVR_Action_Boolean GripAction = null;
     public SteamVR_Action_Boolean PinchAction = null;
     public SteamVR_Action_Skeleton SkeletonAction = null;
@@ -17,31 +19,14 @@ public class RightHandController : MonoBehaviour
     public bool _ring;
     public bool _pinky;
 
-
-    public bool hasPointer;
-    public Transform pointer;
-    public float pointerSpeed = 1;
-
-    private void Start()
-    {
-        if (pointer != null)
-        {
-            hasPointer = true;
-        }
-    }
-
-    void Update()
-    {
-        if (hasPointer)
-        {
-            Thumbstick();
-        }
-        //Squeeze();
-        //Grip();
-        //Pinch();
-        //Skeleton();
-        //TrackFinger();
-    }
+    // void Update()
+    // {
+    //     //Squeeze();
+    //     //Grip();
+    //     //Pinch();
+    //     //Skeleton();
+    //     //TrackFinger();
+    // }
 
     private void TrackFinger()
     {
@@ -52,23 +37,6 @@ public class RightHandController : MonoBehaviour
         _pinky = SkeletonAction.pinkyCurl > 0.5f ? true : false;
     }
 
-    private void Thumbstick()
-    {
-        if (ThumbstickAction.axis == Vector2.zero)
-        {
-            return;
-        }
-
-        Vector3 offset = new Vector3(0, ThumbstickAction.axis.y, -ThumbstickAction.axis.x);
-
-        Vector3 nextPosition = pointer.position + offset * pointerSpeed;
-
-        nextPosition.x = 4.5f;
-        nextPosition.y = Mathf.Clamp(nextPosition.y, 2.1f, 3.8f);
-        nextPosition.z = Mathf.Clamp(nextPosition.z, -1.4f, 1.6f);
-
-        pointer.position = nextPosition;
-    }
     private void Squeeze()
     {
         if (SqueezeAction.axis == 0.0f)

@@ -4,12 +4,24 @@ using UnityEngine;
 
 public class UI_Colliders : MonoBehaviour
 {
+    MenuController menuController;
+
+    private void Start()
+    {
+        menuController = GameObject.FindGameObjectWithTag("MenuController").GetComponent<MenuController>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("UI"))
         {
             other.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            GetComponent<MenuController>().SetScene(other.gameObject.name);
+
+            string[] data = other.gameObject.name.Split('_');
+
+            bool forChildren = data[0] == "Children" ? true : false;
+            string scene = data[1];
+            menuController.SetScene(scene, forChildren);
         }
     }
 
@@ -18,7 +30,7 @@ public class UI_Colliders : MonoBehaviour
         if (other.CompareTag("UI"))
         {
             other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
-            GetComponent<MenuController>().SetScene("");
+            menuController.SetScene("", false);
         }
     }
 }
