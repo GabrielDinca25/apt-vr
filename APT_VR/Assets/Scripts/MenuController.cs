@@ -83,8 +83,9 @@ public class MenuController : MonoBehaviour
         switch (sceneName)
         {
             case "Height":
-                player.transform.position = new Vector3(0f, 0f, -0.3f);
-                player.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+                player.transform.position = new Vector3(0f, 1f, -0.3f);
+                //player.transform.localScale = new Vector3(1f, 1f, 1f);
+                player.GetComponent<PlayerController>().enabled = true;
                 break;
             default:
                 break;

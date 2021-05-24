@@ -1804,6 +1804,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4593113614288608331, guid: 76aa325f6725ca74bae7ea63fe3617fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76aa325f6725ca74bae7ea63fe3617fe, type: 3}
 --- !u!4 &243461334 stripped
@@ -2780,7 +2784,7 @@ Transform:
   m_GameObject: {fileID: 417194444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 842417001}
   - {fileID: 1938115997}
@@ -6201,7 +6205,7 @@ Transform:
   m_GameObject: {fileID: 1076026156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 1621707094}
   - {fileID: 1534506996}
@@ -7983,7 +7987,7 @@ Transform:
   m_GameObject: {fileID: 1549201288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 781273225}
   - {fileID: 1016485803}
@@ -8304,7 +8308,7 @@ Transform:
   m_GameObject: {fileID: 1569465122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 8928597250612111011}
   - {fileID: 9108164334666937743}
@@ -11235,15 +11239,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 970076451274206300, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 970076451274206300, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 970076451274206300, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 970076451274206300, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11251,7 +11255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 970076451274206300, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 970076451274206300, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11303,7 +11307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3550054401149825715, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalScale.x
-      value: 75
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3550054401149825715, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalScale.y
@@ -11311,15 +11315,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3550054401149825715, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalScale.z
-      value: 75
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3550054401149825715, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.142
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3550054401149825715, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.008
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239643922418019072, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 8597758760876147764, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
       propertyPath: m_IsActive
@@ -11327,6 +11335,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
+--- !u!1 &1768966996916353450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1764332567049839862, guid: ca6aeee9c174f4c43b0405bd90e8c858, type: 3}
+  m_PrefabInstance: {fileID: 1768966996916353447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1768966996916353451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768966996916353450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4775d890649ebcc4d899af2904720212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -3, z: 0}
 --- !u!1001 &2201704621192408639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11633,6 +11659,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8363854161824630484, guid: a8d25a619a3d4084d9cae39c9f376e3b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8420019277393887170, guid: a8d25a619a3d4084d9cae39c9f376e3b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -11842,6 +11872,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572718910584186205, guid: 76aa325f6725ca74bae7ea63fe3617fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593113614288608331, guid: 76aa325f6725ca74bae7ea63fe3617fe, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

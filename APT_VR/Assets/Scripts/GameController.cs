@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        if (ButtonA.stateDown)
+        if (ButtonA.stateDown || Input.GetKey(KeyCode.Escape))
         {
             blankScreen = !blankScreen;
             MakeScreenWhite(blankScreen);

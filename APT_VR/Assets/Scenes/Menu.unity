@@ -1042,52 +1042,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1 &758831243 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 160596, guid: 71a5f9619aa1b9746a20727110651d74, type: 3}
-  m_PrefabInstance: {fileID: 1909633959}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &758831247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758831243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85e63a695bc3950479825368b39bae37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ThumbstickAction:
-    actionPath: /actions/default/in/ThumbStick
-    needsReinit: 0
-  TrackpadAction:
-    actionPath: /actions/default/in/Touchpad
-    needsReinit: 0
-  SqueezeAction:
-    actionPath: 
-    needsReinit: 0
-  ButtonA:
-    actionPath: 
-    needsReinit: 0
-  ButtonB:
-    actionPath: 
-    needsReinit: 0
-  GripAction:
-    actionPath: 
-    needsReinit: 0
-  PinchAction:
-    actionPath: 
-    needsReinit: 0
-  SkeletonAction:
-    actionPath: 
-    needsReinit: 0
-  _thumb: 0
-  _index: 0
-  _middle: 0
-  _ring: 0
-  _pinky: 0
 --- !u!1 &766049653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,18 +2094,6 @@ PrefabInstance:
     - target: {fileID: 447954, guid: 71a5f9619aa1b9746a20727110651d74, type: 3}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: 71a5f9619aa1b9746a20727110651d74, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: 71a5f9619aa1b9746a20727110651d74, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: 71a5f9619aa1b9746a20727110651d74, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: 71a5f9619aa1b9746a20727110651d74, type: 3}
       propertyPath: m_LocalPosition.x
