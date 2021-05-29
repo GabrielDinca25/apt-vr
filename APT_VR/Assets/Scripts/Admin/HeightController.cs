@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HightController : MonoBehaviour
+public class HeightController : MonoBehaviour
 {
     public float speed = 5f;
     public float maxHeight = 100f;

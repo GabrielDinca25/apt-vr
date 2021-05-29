@@ -50,6 +50,24 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/ThumbStick",
+      "type": "vector2",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/default/in/Touchpad",
+      "type": "vector2",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/default/in/ActionButtonA",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/ActionButtonB",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Plank
   - PlayerSteamVR
+  - UI
+  - MenuController
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - mountains
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
