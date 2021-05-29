@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
     private bool goUp;
     private bool goDown;
 
+    public float maxHeight = 105f;
+    public float minHeight = 0.1f;
+
 
     private void Start()
     {
@@ -84,7 +87,7 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y > 10 || transform.position.y < 0.1)
         {
             nextPosition.x = transform.position.x;
-            nextPosition.y = Mathf.Clamp(transform.position.y, 0.1f, 105f);
+            nextPosition.y = Mathf.Clamp(transform.position.y, minHeight, maxHeight);
             nextPosition.z = transform.position.z;
 
             transform.position = nextPosition;

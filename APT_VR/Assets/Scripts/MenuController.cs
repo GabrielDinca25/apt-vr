@@ -12,7 +12,6 @@ public class MenuController : MonoBehaviour
     public SteamVR_Action_Boolean ButtonB = null;
 
     public string sceneName;
-    public bool forChildren;
 
     public bool hasPointer;
     public Transform pointer;
@@ -86,6 +85,9 @@ public class MenuController : MonoBehaviour
                 player.transform.position = new Vector3(0f, 1f, -0.3f);
                 //player.transform.localScale = new Vector3(1f, 1f, 1f);
                 player.GetComponent<PlayerController>().enabled = true;
+                break;
+            case "Spiders":
+                player.transform.position = new Vector3(2.5f, 2.5f, 0f);
                 break;
             default:
                 break;

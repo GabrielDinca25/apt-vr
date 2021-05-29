@@ -8,6 +8,8 @@ TagManager:
   - PlayerSteamVR
   - UI
   - MenuController
+  - PlayerLeftHand
+  - PlayerRightHand
   layers:
   - Default
   - TransparentFX
