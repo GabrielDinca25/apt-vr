@@ -83,11 +83,20 @@ public class MenuController : MonoBehaviour
         {
             case "Height":
                 player.transform.position = new Vector3(0f, 1f, -0.3f);
-                //player.transform.localScale = new Vector3(1f, 1f, 1f);
                 player.GetComponent<PlayerController>().enabled = true;
                 break;
             case "Spiders":
-                player.transform.position = new Vector3(2.5f, 2.5f, 0f);
+                if (GameManager.instance.forChildren == true)
+                {
+                    player.transform.position = new Vector3(1.7f, 3.5f, 0f);
+                }
+                else
+                {
+                    player.transform.position = new Vector3(1.7f, 4.5f, 0f);
+                }
+                break;
+            case "Darkness":
+                player.transform.position = new Vector3(-1.05f, 3.5f, 0.3f);
                 break;
             default:
                 break;

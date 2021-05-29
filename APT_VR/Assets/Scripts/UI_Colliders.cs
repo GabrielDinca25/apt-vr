@@ -20,8 +20,8 @@ public class UI_Colliders : MonoBehaviour
             string[] data = other.gameObject.name.Split('_');
 
             bool forChildren = data[0] == "Children" ? true : false;
-            string scene = data[1];
-            menuController.SetScene(scene, forChildren);
+            string sceneName = data[1];
+            menuController.SetScene(sceneName, forChildren);
         }
     }
 
@@ -30,7 +30,14 @@ public class UI_Colliders : MonoBehaviour
         if (other.CompareTag("UI"))
         {
             other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
-            menuController.SetScene("", false);
+
+            string[] data = other.gameObject.name.Split('_');
+            string sceneName = data[1];
+
+            if (menuController.sceneName == sceneName)
+            {
+                menuController.SetScene("", false);
+            }
         }
     }
 }
