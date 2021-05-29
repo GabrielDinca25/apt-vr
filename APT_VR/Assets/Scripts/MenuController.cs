@@ -98,6 +98,9 @@ public class MenuController : MonoBehaviour
             case "Darkness":
                 player.transform.position = new Vector3(-1.05f, 3.5f, 0.3f);
                 break;
+            case "EnclosedSpaces":
+                player.transform.position = new Vector3(0f, 0f, 0f);
+                break;
             default:
                 break;
         }

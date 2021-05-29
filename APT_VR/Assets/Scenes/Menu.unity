@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 372017468}
   - component: {fileID: 372017467}
   m_Layer: 0
-  m_Name: Children_Height
+  m_Name: Adult_EnclosedSpaces
   m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1223,7 +1223,7 @@ GameObject:
   - component: {fileID: 810774339}
   - component: {fileID: 810774338}
   m_Layer: 0
-  m_Name: Children_Height
+  m_Name: Adult_Height
   m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1597,7 +1597,7 @@ GameObject:
   - component: {fileID: 1220088897}
   - component: {fileID: 1220088898}
   m_Layer: 0
-  m_Name: Adult_Claustrophobia
+  m_Name: Adult_EnclosedSpaces
   m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2397,7 +2397,7 @@ GameObject:
   - component: {fileID: 1981143105}
   - component: {fileID: 1981143104}
   m_Layer: 0
-  m_Name: Children_Height
+  m_Name: Adult_Spiders
   m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

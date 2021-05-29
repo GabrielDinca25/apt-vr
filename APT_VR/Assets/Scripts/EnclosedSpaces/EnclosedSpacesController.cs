@@ -3,24 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 
-public class PlayerController : MonoBehaviour
+public class EnclosedSpacesController : MonoBehaviour
 {
     public SteamVR_Action_Vector2 ThumbstickAction = null;
+    public GameObject room;
 
-    public float speed = 1;
-
-    private CharacterController characterController;
     private bool goUp;
     private bool goDown;
 
-    public float maxHeight = 105f;
-    public float minHeight = 0.1f;
+    public float resizeSpeed = 0.01f;
+    public float minSize = 0.1f;
+    public float maxSize = 1f;
 
-
-    private void Start()
-    {
-        characterController = GetComponent<CharacterController>();
-    }
 
     void Update()
     {
@@ -67,30 +61,29 @@ public class PlayerController : MonoBehaviour
     {
         if (goUp)
         {
-            int value = 1;
-            UpdatePlayerPosition(value);
+            UpdateRoomSize(resizeSpeed);
         }
 
         if (goDown)
         {
-            int value = -1;
-            UpdatePlayerPosition(value);
+            UpdateRoomSize(-resizeSpeed);
         }
     }
 
-    private void UpdatePlayerPosition(int direction)
+    private void UpdateRoomSize(float value)
     {
-        Vector3 nextPosition = Vector3.up * speed * Time.fixedDeltaTime;
+        room.transform.localScale += (Vector3.one * value);
 
-        characterController.Move(nextPosition * direction);
-
-        if (transform.position.y > 10 || transform.position.y < 0.1)
+        if (room.transform.localScale.x > maxSize || room.transform.localScale.x < minSize)
         {
-            nextPosition.x = transform.position.x;
-            nextPosition.y = Mathf.Clamp(transform.position.y, minHeight, maxHeight);
-            nextPosition.z = transform.position.z;
+            Vector3 scale = Vector3.zero;
 
-            transform.position = nextPosition;
+            float scaleValue = Mathf.Clamp(room.transform.localScale.x, minSize, maxSize);
+            scale.x = scaleValue;
+            scale.y = scaleValue;
+            scale.z = scaleValue;
+
+            room.transform.localScale = scale;
         }
     }
 }
