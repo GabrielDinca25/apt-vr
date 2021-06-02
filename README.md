@@ -10,13 +10,13 @@ APT VR is a student-made project and has not yet been tested by real anxiety pat
 
 Screenshots:
 
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/MENU.jpg)
+![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/MENU.jpg "Screenshot1")
 
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/HEIGHT.jpg)
+![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/HEIGHT.jpg "Screenshot2")
 
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/DARKNESS.jpg)
+![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/DARKNESS.jpg "Screenshot3")
 
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/SPIDERS.jpg)
+![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/SPIDERS.jpg "Screenshot4")
 
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/ENCLOSED.jpg)
+![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/ENCLOSED.jpg "Screenshot5")
 
