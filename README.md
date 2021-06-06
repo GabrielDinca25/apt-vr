@@ -8,15 +8,7 @@ The software is meant for both adults and children, providing different stimuli 
 
 APT VR is a student-made project and has not yet been tested by real anxiety patients or therapists.
 
-Screenshots:
+[Click here for in-app Screenshots](https://imgur.com/a/hzPj6Qo)
 
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/MENU.jpg "Screenshot1")
-
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/HEIGHT.jpg "Screenshot2")
-
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/DARKNESS.jpg "Screenshot3")
-
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/SPIDERS.jpg "Screenshot4")
-
-![alt-text](https://github.com/GabrielDinca25/apt_vr/tree/main/APT_VR/Assets/UI/Screenshots/ENCLOSED.jpg "Screenshot5")
+© Alin-Florin Gogoașe && Gabriel Dincă
 
