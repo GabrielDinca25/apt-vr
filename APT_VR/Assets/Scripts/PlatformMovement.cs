@@ -6,7 +6,7 @@ using Valve.VR;
 public class PlatformMovement : MonoBehaviour
 {
     private Transform player;
-    public Vector3 offset = new Vector3(0, -1f, 0);
+    public float offset = -3f;
 
     private void Start()
     {
@@ -15,6 +15,6 @@ public class PlatformMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = player.position + offset;
+        transform.position = new Vector3(transform.position.x, player.position.y + offset, transform.position.z);
     }
 }
