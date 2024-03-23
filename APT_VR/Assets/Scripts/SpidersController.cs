@@ -17,7 +17,7 @@ public class SpidersController : MonoBehaviour
         }
         else
         {
-            SetAdultsrenSettings();
+            SetAdultsSettings();
         }
     }
 
@@ -26,7 +26,7 @@ public class SpidersController : MonoBehaviour
         adults.SetActive(false);
     }
 
-    private void SetAdultsrenSettings()
+    private void SetAdultsSettings()
     {
         childrens.SetActive(false);
     }

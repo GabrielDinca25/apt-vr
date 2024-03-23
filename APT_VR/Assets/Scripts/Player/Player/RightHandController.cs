@@ -19,14 +19,14 @@ public class RightHandController : MonoBehaviour
     public bool _ring;
     public bool _pinky;
 
-    // void Update()
-    // {
-    //     //Squeeze();
-    //     //Grip();
-    //     //Pinch();
-    //     //Skeleton();
-    //     //TrackFinger();
-    // }
+    void Update()
+    {
+        Squeeze();
+        Grip();
+        Pinch();
+        Skeleton();
+        TrackFinger();
+    }
 
     private void TrackFinger()
     {
